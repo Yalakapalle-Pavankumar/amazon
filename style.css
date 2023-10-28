@@ -1,0 +1,31 @@
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: -25%;
+}
+
+.main{
+    position: relative;
+    top: -40vh;
+}
+.box{
+    background: white;
+}
+.card-title{
+    font-weight: 700;
+}
+@media (max-width:570px){
+    .main{
+        top: 0vh;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        top: 0%;
+    }
+}
+@media (min-width:570px) and (max-width:1200px){
+    .main{
+        top: 0vh;
+    }
+}
